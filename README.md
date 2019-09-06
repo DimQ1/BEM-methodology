@@ -2,5 +2,5 @@
 
 ## Short Description
 
-I need develop simple HTML page by BEM
+Simple HTML page by BEM
 
