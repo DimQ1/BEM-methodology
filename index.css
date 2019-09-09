@@ -2,11 +2,20 @@ body, html {
     height: 100%;
   }
 
-.hero__background{
-    height:64vh;
+.hero{
+    position: relative;
 }
-.hero__content-pt-210{
-    padding-top: 210px
+
+.hero__background{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+.hero__content-pt-190{
+    padding-top: 190px
 }
 
 .text{
@@ -17,14 +26,26 @@ body, html {
     font-size: 45px;
 }
 
+.text-size-30{
+    font-size: 30px;
+}
+
 .text-size-18{
-    font-size: 1.5rem;
+    font-size: 18px;
+}
+
+.text-color-main{
+    color: #006699;
+}
+
+.title-pt-50{
+    padding: 50px;
 }
 
 .title__underline-mt--20{
     margin-top: -20px;
 }
 
-.hero__form-pt-90{
+.pt-90{
     padding-top: 90px;
 }

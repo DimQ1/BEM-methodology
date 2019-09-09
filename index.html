@@ -15,47 +15,154 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap"
         rel="stylesheet">
 
-    <title>Hello, world!</title>
+    <title>Bem layout</title>
 </head>
 
 <body>
     <div class="hero">
-        <div class="hero__background"
-            style="background: url('img/hero-background.jpg'); background-repeat: no-repeat; background-position: center; background-size: contain;">
-            <div class="hero__content hero__content-pt-210 container">
-                <div class="row justify-content-center">
-                    <div class="col-sm-12 col-xl-7 d-flex flex-column  align-items-center">
-                        <div class="title">
-                            <div class="title__text d-flex flex-column align-items-center">
-                                <div class="title__container">
-                                    <div class="text text-white font-weight-bolder text-size-45">
-                                        Live Interaction From Audience
+        <div class="hero__background container"
+            style="background: url('img/hero-background.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;">
+        </div>
+        <div class="hero__content hero__content-pt-190 container">
+            <div class="row">
+                <div class="col-sm-12 col-xl-7">
+                    <div class="banner">
+                        <div class="row">
+                            <div class="col-sm-12 d-flex flex-column  align-items-center">
+                                <div class="title">
+                                    <div class="title__text d-flex flex-column align-items-center">
+                                        <div class="title__container">
+                                            <div class="text text-white font-weight-bolder text-size-30">
+                                                Live Interaction From Audience
+                                            </div>
+                                            <div class="title__underline title__underline-mt--20 text-right">
+                                                <img src="img/right-underline.svg">
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="title__underline title__underline-mt--20 text-right">
-                                        <img src="img/right-underline.png">
+                                </div>
+                                <div class="text text-white  text-size-18">Q&A, Polls and Slide-sharing for Events
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 d-flex flex-column  align-items-center pt-90" style="height: 310px;">
+                                <div class="hero__form">
+                                    <form class="form-inline flex-nowrap">
+                                        <button class="btn btn-outline-light btn-sm mr-sm-4" type="button">Create
+                                            event</button>
+                                        <div class="input-group input-group-sm flex-nowrap">
+                                            <div class="input-group-prepend">
+                                                <button class="btn btn-outline-light" type="button">Join event</button>
+                                            </div>
+                                            <input type="text" class="input form-control" style="max-width:90px;"
+                                                placeholder="type code">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="hero__content-img d-sm-none d-none d-xl-block">
+                        <img class="img-fluid" alt="image of application for the phone"
+                            src="img/mobile-application.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title title-pt-50">
+                        <div class="title__text d-flex flex-column align-items-center">
+                            <div class="title__container">
+                                <div class="text text-color-main font-weight-regular text-size-30">
+                                    How it works
+                                </div>
+                                <div class="title__underline title__underline-mt--20 align-items-start">
+                                    <img src="img/left-underline.svg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 col-sm-12">
+                    <div class="icon">
+                        <div class="conteiner">
+                            <div class="row">
+                                <div class="col-12 d-flex flex-column  align-items-center">
+                                    <div class="icon__img mb-4 mt-4" style="width: 90px; height:90px">
+                                        <img style="max-height: 100%;" src="img/create-free-account.jpg">
+                                    </div>
+                                    <div class="icon__description mb-4">
+                                        <div class="text text-color-main text-center">
+                                            Create a FREE</br>accout with us
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="text text-white  text-size-18">Q&A, Polls and Slide-sharing for Events </div>
-                        <div class="hero__form hero__form-pt-90">
-                            <form class="form-inline">
-                                <div class="hero__create-event-button mr-sm-4">
-                                    <button class="btn btn-outline-light btn-sm" type="button">Create event</button>
-                                </div>
-                                <div class="input-group input-group-sm">
-                                    <div class="input-group-prepend">
-                                        <button class="btn btn-outline-light" type="button">Join event</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="icon">
+                        <div class="conteiner">
+                            <div class="row">
+                                <div class="col-12 d-flex flex-column  align-items-center">
+                                    <div class="icon__img mb-4 mt-4" style="width: 90px; height:90px">
+                                        <img style="max-height: 100%;" src="img/discuss-issue.jpg">
                                     </div>
-                                    <input type="text" class="input form-control" style="width:90px;" placeholder="type code">
+                                    <div class="icon__description mb-4">
+                                        <div class="text text-color-main text-center">
+                                            Create youe own event</br>or Q&A session
+                                        </div>
+                                    </div>
                                 </div>
-                            </form>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-xl-3">
-                        <div class="hero__content-img d-sm-none d-none d-xl-block">
-                            <div class="img-content">
-                                <img class="img-fluid" alt="Responsive image" src="img/mobile-application.png">
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="icon">
+                        <div class="conteiner">
+                            <div class="row">
+                                <div class="col-12 d-flex flex-column  align-items-center">
+                                    <div class="icon__img mb-4 mt-4" style="width: 90px; height:90px">
+                                        <img style="max-height: 100%;" src="img/qr-code.jpg">
+                                    </div>
+                                    <div class="icon__description mb-4">
+                                        <div class="text text-color-main text-center no">
+                                            Share your meeting code</br>with the participants
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="icon">
+                        <div class="conteiner">
+                            <div class="row">
+                                <div class="col-12 d-flex flex-column  align-items-center">
+                                    <div class="icon__img mb-4 mt-4" style="width: 90px; height:90px">
+                                        <img style="max-height: 100%;" src="img/run-your-meeting.jpg">
+                                    </div>
+                                    <div class="icon__description mb-4">
+                                        <div class="text text-color-main text-center">
+                                            Run your meeting</br>successfully
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12"></div>
                             </div>
                         </div>
                     </div>
@@ -63,7 +170,21 @@
             </div>
         </div>
     </div>
+    <div class="content-block">
 
+    </div>
+    <div class="content-block">
+
+    </div>
+    <div class="content-block">
+
+    </div>
+    <div class="content-block">
+
+    </div>
+    <div class="content-block">
+
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
