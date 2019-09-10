@@ -26,12 +26,29 @@ body, html {
     font-size: 45px;
 }
 
+.text-size-40{
+    font-size: 40px;
+}
+
+.text-size-35{
+    font-size: 35px;
+}
+
 .text-size-30{
     font-size: 30px;
 }
 
-.text-size-18{
-    font-size: 18px;
+.text-size-24{
+    font-size: 24px;
+}
+
+
+.text-size-17{
+    font-size: 17px;
+}
+
+.text-size-13{
+    font-size: 13px;
 }
 
 .text-color-main{
@@ -48,4 +65,12 @@ body, html {
 
 .pt-90{
     padding-top: 90px;
+}
+.content-block{
+    position: relative;
+}
+
+.content-block__content{
+    position: relative;
+    z-index: 100;
 }
