@@ -1,0 +1,20 @@
+{
+  "name": "bemmethodology",
+  "version": "1.0.0",
+  "description": "I need develop simple HTML page by BEM",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files\"*.html, *.css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DimQ1/BEM-methodology.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DimQ1/BEM-methodology/issues"
+  },
+  "homepage": "https://github.com/DimQ1/BEM-methodology#readme"
+}

@@ -58,7 +58,7 @@ body, html {
     color: #006699;
 }
 
-.title-pt-50{
+.title-p-50{
     padding: 50px;
 }
 
@@ -73,13 +73,62 @@ body, html {
     position: relative;
 }
 
-.content-block__content{
+.content-block__container{
     position: relative;
     z-index: 100;
 }
 
+.content-block__container-mb-5{
+    margin-bottom: 3rem;
+}
+
 .icon{
     position: relative;
+}
+
+.icon_size-sm{
+    width:170px;
+    height:170px;
+}
+
+.icon__inner_position-default{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.icon__inner-size-200{
+    
+    height: 150px;
+}
+
+.icon__image-size-default{
+    width: 90px;
+    height: 90px;
+}
+
+.icon__image-size-sm{
+    width: 40px;
+    height: 40px;
+}
+
+.icon__image-mt-4-5{
+    margin-top:2rem;
+}
+
+.icon__description-mt-2{
+    margin-top: .5rem;
+}
+
+.icon__description-mt-4{
+    margin-top: 1.5rem;
+}
+
+
+
+.icon__description-mb-5{
+    margin-bottom: 3rem;
 }
 
 .icon__background{
@@ -90,4 +139,72 @@ body, html {
     left: 0;
     right: 0;
     bottom: 0;
+    background-position-x: center;
+}
+
+.content-block__container-row{
+    display: flex;
+    margin-top: 2.5rem;
+}
+
+@media (min-width: 576px){
+    .content-block__container-row-sm{
+        display: flex;
+        margin-top: 2.5rem;
+    }
+
+    .icon_stairs-sm{
+        margin: 0 .5rem .5rem 0;
+    }
+}
+
+@media (min-width: 768px){
+    .content-block__container-row-md{
+        display: flex;
+        margin-top: 2.5rem;
+    }
+
+    .icon_stairs-md{
+        margin: 0 3rem 3rem 0;
+    }
+}
+
+@media (min-width: 992px){
+    .content-block__container-row-lg{
+        display: block;
+        margin-top: 0;
+    }
+    .icon_stairs-lg:nth-child(even){
+        margin-left: calc(54% + 10px);
+    }
+    
+    .icon_stairs-lg:not(:first-child){
+        margin-top: -52%;
+    }
+
+    .icon_stairs-lg{
+        margin: 0;
+    }
+}
+
+.vertical-block{
+    position: absolute;
+    top:0;
+    left:8vw;
+    right: 0;
+    bottom:0;
+    z-index: 100;
+    max-width: 30px;
+}
+
+.vertical-block__border{
+    border: white solid 1px;
+}
+
+
+.text-vertical{
+    transform: rotate(-90deg);
+    height: 165px;
+    width: 165px;
+    letter-spacing: 5px;
 }
