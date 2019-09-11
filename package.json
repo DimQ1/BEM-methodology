@@ -4,7 +4,7 @@
   "description": "I need develop simple HTML page by BEM",
   "main": "index.js",
   "scripts": {
-    "start": "browser-sync start --server --files\"*.html, *.css\""
+    "start": "browser-sync start --server --files=\"*.html,*.css\""
   },
   "repository": {
     "type": "git",
