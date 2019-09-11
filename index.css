@@ -140,14 +140,13 @@ body, html {
 }
 
 .icon__inner-mp-3{
-    margin: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     padding: 1rem;
 }
 
-.icon__inner-border-br{
-    
+.icon__inner-border-b{
     border-bottom: solid 1px #006699;
-    border-right: solid 1px #006699;
 }
 
 .icon__background{
@@ -186,6 +185,10 @@ body, html {
     height: 165px;
     width: 165px;
     letter-spacing: 5px;
+}
+
+.img-fix{
+    height: 100%;
 }
 
 @media (min-width: 576px){
