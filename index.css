@@ -222,6 +222,62 @@ body, html {
     border: solid 1px #006699;
 }
 
+.header_background{
+    background: black;
+}
+
+.header__content{
+    display: flex;
+}
+
+.logo_p-2{
+    padding: .5rem;
+}
+
+.logo_size-default{
+    width: 80px;
+}
+
+.action{
+    display: flex;
+    align-items: center;
+}
+
+.action__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action__item_m-2{
+    margin: .5rem;
+}
+
+.action__img-in_size-sm{
+    width: 20px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.menu__item{
+    float: left;
+    display: flex;
+    align-items: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 100%;
+}
+
+.menu__item:hover{
+    border-top: solid 1px white;
+    background: #1e1d1d;
+    cursor: pointer;
+}
 
 @media (min-width: 576px){
     .content-block__container-row-sm{
