@@ -18,6 +18,11 @@ body, html {
     padding-top: 190px
 }
 
+.hero__form{
+    display:flex;
+    justify-content: center;
+}
+
 .text{
     font-family: 'Lato', serif;
 }
@@ -85,6 +90,15 @@ body, html {
 .content-block__container-mb-2{
     margin-bottom: .5rem;
 }
+
+.content-block_background-blue{
+    background: #006699;
+}
+
+.content-block_background-gray{
+    background: #e8e8e8;
+}
+
 
 .icon{
     position: relative;
@@ -192,9 +206,7 @@ body, html {
     height: 100%;
 }
 
-.content-block_background-blue{
-    background: #006699;
-}
+
 
 
 .decorator_left-border::before{
