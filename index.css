@@ -243,6 +243,22 @@ body, html {
     border: solid 1px #006699;
 }
 
+
+.mobile-menu{
+    position: relative;
+}
+
+.mobile-menu__content{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: 0;
+}
+
+
 .header_background{
     background: black;
 }
@@ -290,7 +306,7 @@ body, html {
     float: left;
     display: flex;
     align-items: center;
-    padding: 14px 16px;
+    padding: 35px 16px;
     text-decoration: none;
     height: 100%;
 }
