@@ -63,6 +63,14 @@ body, html {
     font-size: 13px;
 }
 
+.text-size-10{
+font-size: 10px;
+}
+
+.text-size-7{
+    font-size: 7px;
+    }
+
 .text-color-main{
     color: #006699;
 }
@@ -113,8 +121,12 @@ body, html {
 }
 
 .icon_size-sm{
-    width:170px;
-    height:170px;
+    width:100px;
+    height:100px;
+}
+
+.icon_stairs-sm {
+    margin: 0 .5rem .5rem 0;
 }
 
 .icon__inner_position-default{
@@ -138,11 +150,11 @@ body, html {
 }
 
 .icon__image-size-w-sm{
-    width: 40px;
+    width: 24%;
 }
 
 .icon__image-mt-4-5{
-    margin-top:2rem;
+    margin-top:17%;
 }
 
 .icon__desc-mt-2{
@@ -254,7 +266,7 @@ body, html {
     position: absolute;
     top: 0;
     left: auto;
-    right: 0;
+    right: 10px;
     bottom: 0;
 }
 
@@ -364,6 +376,15 @@ body, html {
 
     .icon_stairs-sm{
         margin: 0 .5rem .5rem 0;
+    }
+
+    .icon_size-sm{
+        width:170px;
+        height:170px;
+    }
+
+    .text-size-sm-13{
+        font-size: 13px;
     }
 }
 
