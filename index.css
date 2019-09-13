@@ -520,10 +520,10 @@ body, html {
         width: 100%;
         padding: 15px 16px;
     }
-    .mobile-menu__mobile-switcher:not(:checked) + .mobile-menu__switcher-open + .mobile-menu__switcher-close{
+    .mobile-menu__mobile-switcher:not(:checked) + .mobile-menu__open + .mobile-menu__close{
         display: none;
     }
-    .mobile-menu__mobile-switcher:checked + .mobile-menu__switcher-open{
+    .mobile-menu__mobile-switcher:checked + .mobile-menu__open{
         display: none;
     }
 
