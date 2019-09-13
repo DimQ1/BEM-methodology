@@ -20,45 +20,56 @@
 
 <body>
     <div class="header header_background">
-        <div
-            class="header__content container justify-content-sm-center justify-content-center justify-content-md-between mobile-menu">
-            <div class="mobile-menu__content d-md-none">
-                <img width="40" src="img/mobile-menu.png" alt="mobile menu">
-            </div>
+        <div class="header__content container  d-flex justify-content-end mobile-menu ">
+            <input type="checkbox" class="mobile-menu__mobile-switcher d-none" name="mobile-checkbox"
+                id="mobile-checkbox" />
+            <label class="mobile-menu__switcher-open" for="mobile-checkbox">
+                <div class="mobile-menu__content d-sm-none open-menu">
+                    <img width="40" class="m-2" src="img/mobile-menu.png" alt="mobile menu">
+                </div>
 
-            <div class="logo logo_p-2 logo_size-default d-md-none d-lg-block">
-                <img class="img-fluid" src="img/logo.png" alt="logotype">
-            </div>
-            <ul class="menu d-none d-md-flex">
-                <li class="menu__item">
-                    <div class="text">Home</div>
-                </li>
-                <li class="menu__item">
-                    <div class="text">How it works</div>
-                </li>
-                <li class="menu__item">
-                    <div class="text">Features</div>
-                </li>
-                <li class="menu__item">
-                    <div class="text">Partners</div>
-                </li>
-                <li class="menu__item">
-                    <div class="text">Events</div>
-                </li>
-                <li class="menu__item">
-                    <div class="text">About us</div>
-                </li>
-            </ul>
-            <div class="action d-none d-md-flex">
-                <div class="action__item action__item_m-2">
-                    <img class="img-fluid action__img-in_size-sm" src="img/sign-in.png" alt="sign in">
-                    <div class="text text-size-13 text-white">Log in</div>
+            </label>
+            <label class="mobile-menu__switcher-close" for="mobile-checkbox">
+                <div class="mobile-menu__content d-sm-none">
+                    <img width="40" class="m-2 close-menu" src="img/cross.png" alt="mobile menu">
                 </div>
-                <div class="action__item action__item_m-2">
-                    <img class="img-fluid action__img-in_size-sm" src="img/avatar.png" alt="sign up">
-                    <div class="text text-size-13 text-white">Register</div>
+            </label>
+            <nav
+                class="w-100 navigation-mobile d-flex justify-content-sm-center justify-content-end justify-content-md-between mobile-menu">
+                <div class="logo logo_style-mobile logo_p-2 logo_size-default d-md-flex">
+                    <img width="80" class="img-fluid" src="img/logo.png" alt="logotype">
                 </div>
-            </div>
+                <ul class="menu menu_style-mobile d-sm-flex">
+                    <li class="menu__item text-center">
+                        <div class="text">Home</div>
+                    </li>
+                    <li class="menu__item text-center">
+                        <div class="text">How it works</div>
+                    </li>
+                    <li class="menu__item text-center">
+                        <div class="text">Features</div>
+                    </li>
+                    <li class="menu__item text-center">
+                        <div class="text">Partners</div>
+                    </li>
+                    <li class="menu__item text-center">
+                        <div class="text">Events</div>
+                    </li>
+                    <li class="menu__item text-center">
+                        <div class="text">About us</div>
+                    </li>
+                </ul>
+                <div class="action d-sm-flex">
+                    <div class="action__item action__item_m-2">
+                        <img class="img-fluid action__img-in_size-sm" src="img/sign-in.png" alt="sign in">
+                        <div class="text text-size-13 text-white">Log in</div>
+                    </div>
+                    <div class="action__item action__item_m-2">
+                        <img class="img-fluid action__img-in_size-sm" src="img/avatar.png" alt="sign up">
+                        <div class="text text-size-13 text-white">Register</div>
+                    </div>
+                </div>
+            </nav>
         </div>
     </div>
     </div>
@@ -84,7 +95,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="text text-white text-center text-size-24">Q&A, Polls and Slide-sharing for Events
+                                <div class="text text-white text-center text-size-24">Q&A, Polls and Slide-sharing for
+                                    Events
                                 </div>
                             </div>
                         </div>
@@ -244,7 +256,8 @@
                                     <img class="img-fluid" src="img/light-bulb.png">
                                 </div>
                                 <div class="icon__desc icon__desc-mt-2">
-                                    <div class="text text-dark text-center text-size-sm-13 text-size-7 font-weight-bolder">
+                                    <div
+                                        class="text text-dark text-center text-size-sm-13 text-size-7 font-weight-bolder">
                                         Run your meeting</br>successfully
                                     </div>
                                 </div>
@@ -259,7 +272,8 @@
                                     <img class="img-fluid" src="img/magnifying-glass.png">
                                 </div>
                                 <div class="icon__desc icon__desc-mt-2">
-                                    <div class="text text-dark text-center  text-size-sm-13 text-size-7 font-weight-bolder">
+                                    <div
+                                        class="text text-dark text-center  text-size-sm-13 text-size-7 font-weight-bolder">
                                         Choose Form</br>Questions
                                     </div>
                                 </div>
@@ -274,7 +288,8 @@
                                     <img class="img-fluid" src="img/contract.png">
                                 </div>
                                 <div class="icon__desc icon__desc-mt-2">
-                                    <div class="text text-dark text-center  text-size-sm-13 text-size-7 font-weight-bolder">
+                                    <div
+                                        class="text text-dark text-center  text-size-sm-13 text-size-7 font-weight-bolder">
                                         Select Form</br>Top Querstions
                                     </div>
                                 </div>
@@ -300,9 +315,9 @@
             </div>
         </div>
         <div class="contanier">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center p-0 m-0">
                 <div class="col-12 col-md-8">
-                    <div class="row decorator">
+                    <div class="row decorator m-0">
                         <div class="col-6 col-lg-4 decorator_left-border decorator_bottom-border">
                             <div class="icon">
                                 <div class="icon__inner icon__inner_position-default  icon__inner-mp-3">
