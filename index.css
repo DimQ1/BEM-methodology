@@ -82,10 +82,6 @@ body, html {
     color: #006699;
 }
 
-.text_mrl-4 {
-    margin: 0 1.5rem;
-}
-
 .title-p-50 {
     padding: 50px;
 }
@@ -375,6 +371,10 @@ body, html {
     color: white;
 }
 
+.prl-0{
+    padding: 0;
+}
+
 @media (min-width: 576px) {
     .content-block__container-row-sm {
         display: flex;
@@ -390,16 +390,33 @@ body, html {
     .text-size-sm-13 {
         font-size: 13px;
     }
+
+   
+
+    .prl-sm-15{
+        padding: 0 15px;
+    }
 }
 
 @media (min-width: 768px) {
     .content-block__container-row-md {
-        display: flex;
-        margin-top: 2.5rem;
+        display: block;
+        margin-top: 0;
     }
     .icon_stairs-md {
-        margin: 0 3rem 3rem 0;
+        margin: 15px;
     }
+
+    .icon_size-sm{
+        width: 100px;
+        height: 100px;
+    }
+
+    .text-size-md-7 {
+        font-size: 7px;
+    }
+
+   
 }
 
 @media (min-width: 992px) {
@@ -416,6 +433,20 @@ body, html {
     .icon_stairs-lg {
         margin: 0;
     }
+
+    .icon_size-sm{
+        width: 170px;
+        height: 170px;
+    }
+
+    .text-size-sm-50{
+        font-size: 50px;
+    }
+
+    .text-size-md-13{
+        font-size: 13px;
+    }
+
     .vb__content_show-lg {
         display: block;
     }
@@ -476,12 +507,16 @@ body, html {
     .btn_style-sm-resolution:hover {
         color: #006699;
     }
-    .icon__inner_position-sm {
-        flex-direction: row;
-    }
+  
     .icon__image-size-h-sm-60 {
         height: 60px;
-        margin: 0 10px;
+        margin: 0 10px 0 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .icon__inner_position-sm {
+        flex-direction: row;
     }
 }
 
