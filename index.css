@@ -489,7 +489,7 @@ body, html {
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .decorator_left-border:nth-child(2n+1)::before {
         background: none;
     }
