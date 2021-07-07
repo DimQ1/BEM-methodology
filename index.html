@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Custom Css-->
+    <link rel="stylesheet" href="index.css">
+    <!--Connected Lato Fonts from Google-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap"
+        rel="stylesheet">
+
+    <title>Bem layout</title>
+</head>
+
+<body>
+    <div class="header header_background">
+        <div class="header__content container d-flex justify-content-end mobile-menu">
+            <input type="checkbox" class="mobile-menu__mobile-switcher d-none" name="mobile-checkbox"
+                id="mobile-checkbox" />
+            <label class="mobile-menu__open" for="mobile-checkbox">
+                <div class="mobile-menu__content d-sm-none open-menu">
+                    <img width="40" class="m-2" src="img/mobile-menu.png" alt="mobile menu">
+                </div>
+
+            </label>
+            <label class="mobile-menu__close" for="mobile-checkbox">
+                <div class="mobile-menu__content d-sm-none">
+                    <img width="40" class="m-2 close-menu" src="img/cross.png" alt="mobile menu">
+                </div>
+            </label>
+            <nav
+                class="w-100 navigation-mobile d-flex justify-content-sm-center justify-content-end justify-content-md-between">
+                <div class="logo logo_style-mobile logo_p-2 logo_size-default d-lg-flex d-md-none">
+                    <img width="80" class="img-fluid" src="img/logo.png" alt="logotype">
+                </div>
+                <ul class="menu menu_style-mobile d-sm-flex">
+                    <li class="menu__item text-center">
+                        <div class="text">Home</div>
+                    </li>
+                    <li class="menu__item text-center">
+                        <div class="text">How it works</div>
+                    </li>
+                    <li class="menu__item text-center">
+                        <div class="text">Features</div>
+                    </li>
+                    <li class="menu__item text-center">
+                        <div class="text">Partners</div>
+                    </li>
+                    <li class="menu__item text-center">
+                        <div class="text">Events</div>
+                    </li>
+                    <li class="menu__item text-center">
+                        <div class="text">About us</div>
+                    </li>
+                </ul>
+                <div class="action d-sm-flex">
+                    <div class="action__item action__item_m-2">
+                        <img class="img-fluid action__img-in_size-sm" src="img/sign-in.png" alt="sign in">
+                        <div class="text text-size-13 text-white">Log in</div>
+                    </div>
+                    <div class="action__item action__item_m-2">
+                        <img class="img-fluid action__img-in_size-sm" src="img/avatar.png" alt="sign up">
+                        <div class="text text-size-13 text-white">Register</div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    </div>
+    <div class="hero">
+        <div class="hero__background"
+            style="background: url('img/hero-background.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;">
+        </div>
+        <div class="hero__content hero__content-pt-190 container">
+            <div class="row">
+                <div class="col-sm-12 col-xl-7">
+                    <div class="banner">
+                        <div class="row">
+                            <div class="col-sm-12 d-flex flex-column  align-items-center">
+                                <div class="title">
+                                    <div class="title__text d-flex flex-column align-items-center">
+                                        <div class="title__container">
+                                            <div class="text text-white text-center font-weight-bolder text-size-35">
+                                                Live Interaction <br class="d-sm-none">From Audience
+                                            </div>
+                                            <div class="title__underline title__underline-mt--20 text-right">
+                                                <img src="img/right-underline.svg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text text-white text-center text-size-24">Q&A, Polls and Slide-sharing for
+                                    Events
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 d-flex flex-column  align-items-center pt-90" style="height: 310px;">
+                                <div class="hero__form">
+                                    <button class="btn btn-outline-light btn-sm mr-1 rounded-0" type="button">Create
+                                        event</button>
+                                    <form class="form-inline flex-nowrap ml-1">
+                                        <div class="input-group input-group-sm flex-nowrap rounded-0">
+                                            <div class="input-group-prepend">
+                                                <button class="btn btn-outline-light rounded-0" type="button">Join
+                                                    event</button>
+                                            </div>
+                                            <input type="text" class="input form-control rounded-0"
+                                                style="max-width:90px;" placeholder="type code">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="hero__content-img d-sm-none d-none d-xl-block">
+                        <img class="img-fluid" alt="image of application for the phone"
+                            src="img/mobile-application.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title title-p-50">
+                        <div class="title__text d-flex flex-column align-items-center">
+                            <div class="title__container">
+                                <div class="text text-color-main font-weight-light text-size-40">
+                                    How it works
+                                </div>
+                                <div class="title__underline title__underline-mt--20 text-left">
+                                    <img src="img/left-underline.svg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 col-sm-6 col-6">
+                    <div class="icon">
+                        <div class="icon__inner icon__inner_position-default">
+                            <div class="icon__image icon__image-size-default">
+                                <img class="img-fluid" src="img/create-free-account.jpg">
+                            </div>
+                            <div class="icon__desc icon__desc-mt-4 icon__desc-mb-5">
+                                <div class="text text-color-main text-center text-size-17">
+                                    Create a FREE</br>accout with us
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-6">
+                    <div class="icon">
+                        <div class="icon__inner icon__inner_position-default">
+                            <div class="icon__image icon__image-size-default">
+                                <img class="img-fluid" src="img/discuss-issue.jpg">
+                            </div>
+                            <div class="icon__desc icon__desc-mt-4 icon__desc-mb-5">
+                                <div class="text text-color-main text-center text-size-17">
+                                    Create youe own event</br>or Q&A session
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-6">
+                    <div class="icon">
+                        <div class="icon__inner icon__inner_position-default">
+                            <div class="icon__image icon__image-size-default">
+                                <img class="img-fluid" src="img/qr-code.jpg">
+                            </div>
+                            <div class="icon__desc icon__desc-mt-4 icon__desc-mb-5">
+                                <div class="text text-color-main text-center text-size-17">
+                                    Share your meeting code</br>with the participants
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-6">
+                    <div class="icon">
+                        <div class="icon__inner icon__inner_position-default">
+                            <div class="icon__image icon__image-size-default">
+                                <img class="img-fluid" src="img/run-your-meeting.jpg">
+                            </div>
+                            <div class="icon__desc icon__desc-mt-4 icon__desc-mb-5">
+                                <div class="text text-color-main text-center text-size-17">
+                                    Run your meeting</br>successfully
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-block content-block_background-blue">
+        <div class="container vb">
+            <div class="vb__content vb__content_hide vb__content_show-lg vb__content_border">
+                <div class="text text-white text-left text-size-18 font-weight-light text-vertical">
+                    Interaction
+                </div>
+                <img style="margin: .5rem;" src="img/vertical-pin.svg">
+            </div>
+            <div class="row flex-wrap-reverse justify-content-center">
+                <div class="col-md-8 col-lg-6 offset-lg-1">
+                    <div class="content-block__container content-block__container-mb-5">
+                        <div
+                            class="text text-white text-center text-lg-left font-weight-bolder text-lg-size-35 text-size-24 test pt-4">
+                            Interact with <br class="d-none d-lg-block" />
+                            thousand of <br class="d-none d-lg-block" />
+                            audience <br class="d-none d-lg-block" />
+                            in on time</div>
+                        <div class="text text-center text-lg-left text-white text-size-18 font-weight-regular">
+                            Its easier than ever<br class="d-block d-lg-none" />
+                            _____________________________</div>
+                        <div class="text text-white text-center text-lg-left text-size-13 pt-4 text-justify">it’s never
+                            been easier to
+                            connect
+                            with people who speak this language. They
+                            want others to build up their self-image and confidence, and digital connectivity
+                            creates ample opportunity to tell your audience why they’re awesome. Move
+                            beyond general flattery and focus on specifics. Ask yourself, “How can I make
+                            my audience feel good about themselves?”
+                            <div class="pt-4 d-none d-lg-block"></div>
+                            One option might be developing a
+                            blog series that focuses on industry wins, or
+                            spotlights companies that are doing something right. Or if you share an article
+                            with your network, you could point out a quote from the author that really
+                            resonates with you. Don’t just tell your audience you love them; tell them why.</div>
+                    </div>
+                </div>
+                <div
+                    class="col-md-4 col-lg-5 col-xl-5 d-flex align-items-center justify-content-lx-start justify-content-center">
+                    <div
+                        class="content-block__container content-block__container-row-lg content-block__container-row-md content-block__container-row">
+                        <div class="icon icon_size-sm icon_stairs-lg icon_stairs-md  icon_stairs-sm ">
+                            <div class="icon__background"
+                                style="background: url('img/light-bulb-background.png') no-repeat, center;background-size: contain; background-position-x: center;">
+                            </div>
+                            <div class="icon__inner icon__inner_position-default icon__inner-size-200">
+                                <div class="icon__image icon__image-size-w-sm icon__image-mt-4-5">
+                                    <img class="img-fluid" src="img/light-bulb.png">
+                                </div>
+                                <div class="icon__desc icon__desc-mt-2">
+                                    <div
+                                        class="text text-dark text-center text-size-sm-13 text-size-md-13 text-size-md-7 text-size-7 font-weight-bolder">
+                                        Run your meeting</br>successfully
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="icon icon_size-sm icon_stairs-lg icon_stairs-md  icon_stairs-sm">
+                            <div class="icon__background"
+                                style="background: url('img/light-bulb-background.png') no-repeat, center;background-size: contain; background-position-x: center; transform: rotate(90deg);">
+                            </div>
+                            <div class="icon__inner icon__inner_position-default icon__inner-size-200">
+                                <div class="icon__image icon__image-size-w-sm icon__image-mt-4-5">
+                                    <img class="img-fluid" src="img/magnifying-glass.png">
+                                </div>
+                                <div class="icon__desc icon__desc-mt-2">
+                                    <div
+                                        class="text text-dark text-center  text-size-sm-13 text-size-md-13 text-size-md-7 text-size-7 font-weight-bolder">
+                                        Choose Form</br>Questions
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="icon icon_size-sm icon_stairs-lg icon_stairs-md  icon_stairs-sm">
+                            <div class="icon__background"
+                                style="background: url('img/light-bulb-background.png') no-repeat, center;background-size: contain; background-position-x: center; transform: rotate(-90deg);">
+                            </div>
+                            <div class="icon__inner icon__inner_position-default icon__inner-size-200">
+                                <div class="icon__image icon__image-size-w-sm icon__image-mt-4-5">
+                                    <img class="img-fluid" src="img/contract.png">
+                                </div>
+                                <div class="icon__desc icon__desc-mt-2">
+                                    <div
+                                        class="text text-dark text-center  text-size-sm-13 text-size-md-13 text-size-md-7 text-size-7 font-weight-bolder">
+                                        Select Form</br>Top Querstions
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="content-block">
+        <div class="title title-p-50">
+            <div class="title__text d-flex flex-column align-items-center">
+                <div class="title__container">
+                    <div class="text text-color-main font-weight-light text-size-40">
+                        Feature
+                    </div>
+                    <div class="title__underline title__underline-mt--20 text-left">
+                        <img src="img/left-underline.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contanier">
+            <div class="row justify-content-center p-0 m-0">
+                <div class="col-12 col-md-8">
+                    <div class="row decorator m-0">
+                        <div class="col-6 col-lg-4 decorator_left-border decorator_bottom-border">
+                            <div class="icon">
+                                <div class="icon__inner icon__inner_position-default  icon__inner-mp-3">
+                                    <div class="icon__image icon__image-size-h-sm">
+                                        <img class="img-fix" src="img/microphone.png">
+                                    </div>
+                                    <div class="icon__desc icon__desc-mt-4 icon__desc-mb-2">
+                                        <div class="text text-color-main text-center text-size-17">
+                                            Ask a question
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-4 decorator_left-border decorator_bottom-border">
+                            <div class="icon">
+                                <div class="icon__inner icon__inner_position-default icon__inner-mp-3">
+                                    <div class="icon__image icon__image-size-h-sm">
+                                        <img class="img-fix" src="img/bar-chart.png">
+                                    </div>
+                                    <div class="icon__desc icon__desc-mt-4 icon__desc-mb-2">
+                                        <div class="text text-color-main text-center text-size-17">
+                                            Raise a poll
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-4 decorator_left-border decorator_bottom-border">
+                            <div class="icon">
+                                <div class="icon__inner icon__inner_position-default icon__inner-mp-3">
+                                    <div class="icon__image icon__image-size-h-sm">
+                                        <img class="img-fix" src="img/insight.png">
+                                    </div>
+                                    <div class="icon__desc icon__desc-mt-4 icon__desc-mb-2">
+                                        <div class="text text-color-main text-center text-size-17">
+                                            View statistics
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-4 decorator_left-border decorator_bottom-border">
+                            <div class="icon">
+                                <div class="icon__inner icon__inner_position-default icon__inner-mp-3">
+                                    <div class="icon__image icon__image-size-h-sm">
+                                        <img class="img-fix" src="img/medal.png">
+                                    </div>
+                                    <div class="icon__desc icon__desc-mt-4 icon__desc-mb-2">
+                                        <div class="text text-color-main text-center text-size-17">
+                                            Vote a question
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-4 decorator_left-border">
+                            <div class="icon">
+                                <div class="icon__inner icon__inner_position-default icon__inner-mp-3">
+                                    <div class="icon__image icon__image-size-h-sm">
+                                        <img class="img-fix" src="img/flag.png">
+                                    </div>
+                                    <div class="icon__desc icon__desc-mt-4 icon__desc-mb-2">
+                                        <div class="text text-color-main text-center text-size-17">
+                                            Create a survey
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-4 decorator_left-border">
+                            <div class="icon">
+                                <div class="icon__inner icon__inner_position-default icon__inner-mp-3">
+                                    <div class="icon__image icon__image-size-h-sm">
+                                        <img class="img-fix" src="img/padlock.png">
+                                    </div>
+                                    <div class="icon__desc icon__desc-mt-4 icon__desc-mb-2">
+                                        <div class="text text-color-main text-center text-size-17">
+                                            Privacy ensured
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-block content-block_background-gray">
+        <div class="content-block__inner pb-5">
+            <div class="title title-p-50">
+                <div class="title__text d-flex flex-column align-items-center">
+                    <div class="title__container">
+                        <div class="text text-color-main font-weight-light text-size-40">
+                            Events
+                        </div>
+                        <div class="title__underline title__underline-mt--20 text-left">
+                            <img src="img/left-underline.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-12 pr-0 pl-0">
+                        <div class="row mr-0 ml-0">
+                            <div class="col-12 col-md-4 prl-0  prl-sm-15">
+                                <div class="card-box cards-box_background-white">
+                                    <div class="card-box__inner card-box__inner_background-size-lg-120 card-box__inner_background-size-lx-contain mt-1 mt-md-1 mt-lg-0"
+                                        style="background:url('img/external-background-img.png') no-repeat top; background-size: 100% 103%">
+                                        <div class="card-box__title">
+                                            <div
+                                                class="text text-center text-white text-size-40 text-size-sm-50 font-weight-light pt-2 ">
+                                                EXTERNAL</div>
+                                            <div
+                                                class="text text-center text-white text-size-40 text-size-sm-50 font-weight-bolder pb-sm-5">
+                                                EVENT
+                                            </div>
+                                        </div>
+                                        <div class="icon">
+                                            <div
+                                                class="icon__inner icon__inner_position-sm icon__inner_position-default icon__inner_position-sm-default">
+                                                <div
+                                                    class="icon__image icon__image-size-h-sm-60 icon__image-size-h-45 icon__image_invert-sm">
+                                                    <img class="img-fix" src="img/usb-connection.png">
+                                                </div>
+                                                <div class="icon__desc icon__desc-mt-4">
+                                                    <div
+                                                        class="text  text-black text_color-sm-white text-center text-size-17 mb-2 mr-4 ml-4">
+                                                        Offers customizable on-line registration service for event
+                                                        organizers. Includes
+                                                        pricing, features, and types of accounts.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-box__buttons card-box__buttons_aling-center">
+                                            <button
+                                                class="btn btn-lg-slim btn_style-default btn_style-sm-resolution btn-color-green rounded-5 mb-4"
+                                                type="button">Discover</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 prl-0  prl-sm-15">
+                                <div
+                                    class="card-box cards-box_background-white cards-box_style-fly cards-box_style-fly-lg">
+                                    <div class="card-box__inner card-box__inner_background-size-lg-120 card-box__inner_background-size-lx-contain mt-1 mt-md-1 mt-lg-0"
+                                        style="background:url('img/interactive-background-img.png') no-repeat top; background-size: 100% 103%;">
+                                        <div class="card-box__title">
+                                            <div
+                                                class="text text-center text-white text-size-40 text-size-sm-50 font-weight-light pt-2 pt-lg-5">
+                                                INTERACTIVE</div>
+                                            <div
+                                                class="text text-center text-white text-size-40 text-size-sm-50 font-weight-bolder pb-sm-5">
+                                                EVENT
+                                            </div>
+                                        </div>
+                                        <div class="icon">
+                                            <div
+                                                class="icon__inner icon__inner_position-sm icon__inner_position-default icon__inner_position-sm-default">
+                                                <div
+                                                    class="icon__image icon__image-size-h-sm-60 icon__image-size-h-45 icon__image_invert-sm">
+                                                    <img class="img-fix" src="img/interactivity.png">
+                                                </div>
+                                                <div class="icon__desc icon__desc-mt-4">
+                                                    <div
+                                                        class="text text-black text_color-sm-white text-center text-size-17 mb-2 mr-4 ml-4">
+                                                        Offers customizable on-line registration service for event
+                                                        organizers. Includes
+                                                        pricing, features, and types of accounts
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-box__buttons card-box__buttons_aling-center">
+                                            <button
+                                                class="btn btn-lg-slim btn_style-default btn_style-sm-resolution btn-color-orange rounded-5 mb-4"
+                                                type="button">Discover</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 prl-0  prl-sm-15">
+                                <div class="card-box cards-box_background-white">
+                                    <div class="card-box__inner card-box__inner_background-size-lg-120 card-box__inner_background-size-lx-contain mt-1 mt-md-1 mt-lg-0"
+                                        style="background:url('img/internal-background-img.png') no-repeat top; background-size: 103% 103%">
+                                        <div class="card-box__title">
+                                            <div
+                                                class="text text-center text-white text-size-40 text-size-sm-50 font-weight-light pt-2">
+                                                INTERNAL</div>
+                                            <div
+                                                class="text text-center text-white text-size-40 text-size-sm-50 font-weight-bolder pb-sm-5">
+                                                EVENT
+                                            </div>
+                                        </div>
+                                        <div class="icon">
+                                            <div
+                                                class="icon__inner icon__inner_position-sm icon__inner_position-default icon__inner_position-sm-default">
+                                                <div
+                                                    class="icon__image icon__image-size-h-sm-60 icon__image-size-h-45 icon__image_invert-sm ">
+                                                    <img class="img-fix" src="img/hard-disk.png">
+                                                </div>
+                                                <div class="icon__desc icon__desc-mt-4 icon__desc-mb-2">
+                                                    <div
+                                                        class="text  text-black text_color-sm-white text-center text-size-17">
+                                                        Offers customizable on-line registration service for event
+                                                        organizers. Includes
+                                                        pricing, features, and types of accounts.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-box__buttons card-box__buttons_aling-center">
+                                            <button
+                                                class="btn btn-lg-slim btn_style-default btn_style-sm-resolution btn-color-yellow rounded-5 mb-4"
+                                                type="button">Discover</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-block">
+
+    </div>
+    <div class="content-block">
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
